@@ -1,0 +1,192 @@
+.grid{
+    display: grid;
+ 
+    grid-template-columns: repeat(2,1fr);
+    align-items: center;
+    justify-content: center;
+}
+.shop_now{
+
+border-radius: 20px;
+color: white;
+padding: 16px 32px;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+font-size: 16px;
+margin: 4px 2px;
+transition-duration: 1s;
+cursor: pointer;
+}
+.shop_now {
+    background-color: white; 
+    color: black; 
+    border: 2px solid #3e2093;
+  }
+  
+  .shop_now:hover {
+    background-color: #3e2093;
+    color: white;
+  }
+  
+    .image img{
+justify-content: center;
+margin-top: 100px;
+margin-left: 100px;
+    width: 400px;
+    height: 400px;
+    margin-right: 30px;
+}
+.data{
+    margin-left: 40px;
+   
+    text-align: left;
+}
+.head{
+    text-align: left;
+}
+@media (max-width: 872px){
+    .image img{
+        justify-content: center;
+        margin-top: 50px;
+        margin-left: 100px;
+            width: 300px;
+            height: 300px;
+            margin-right: 30px;
+        }
+}
+@media(max-width: 754px){
+    .grid{
+        display: flex;
+     
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .image img{
+        justify-content: center;
+        margin-top: 50px;
+        margin-left: 50px;
+            width: 300px;
+            height: 300px;
+            margin-right: 30px;
+        }
+}
+.all_service{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+.service{
+    display: flex;
+    width: 200px;
+    justify-content: center;
+    text-align: left;
+    align-items: center;
+    margin: 35px;
+}
+.service_description{
+    padding-left: 15px;
+}
+.feature{
+    font-weight: 600;
+    font-size: 15px;
+}
+.des{     color: grey;
+    font-size: 10px;
+}
+.service_icon{
+    color: #6f54ca;
+    padding: 5px;
+    font-size: 25px;
+    border-radius: 50%;
+    background-color: rgb(191, 191, 255);
+}
+.deals_main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.deal_of_the_day{
+background-color: #fbdbd9 ;
+color: #f5493d;
+border-radius: 10px;
+padding: 5px;
+padding-top: 0;
+padding-bottom: 0;
+
+}
+.deal_1{
+background-color: rgb(236, 235, 235);
+display: flex;
+width: 450px;
+text-align: left;
+padding: 8px;
+padding-top: 15px;
+border-radius: 20px;
+margin: 20px;
+box-shadow: 7px 5px 10px #888888;
+
+}
+.deal1_price{
+font-weight: bold;
+}
+.deal1_des{
+color: grey;
+font-size: 13px;
+
+}
+.deal2{
+    padding-right: 20px;
+}
+.trust_main{
+display: flex;
+flex-wrap: wrap;
+justify-content: space-evenly;
+align-items: center;
+background-color: rgb(212, 212, 212);
+border-radius: 20px;
+margin-left: 15%;
+margin-right: 15%;
+margin-top: 2%;
+margin-bottom: 7%;
+padding-top: 15px;
+padding-bottom: 15px;
+
+}
+.trust_icon{
+    margin-left: 30px;
+margin-right: 30px;
+    font-size: 35px;
+}
+.trust_head, .deal_head{
+    margin-top: 7%;
+}
+.intro{
+    font-weight: 500;
+    font-size: 35px;
+}
+.shophub_head{
+    color: #6f54ca;
+    font-size: 30px;
+}
+.head{
+   text-align: left;
+    font-weight: bolder;
+    /* font-style: oblique; */
+  letter-spacing: 3px;
+  line-height: 35px;
+  color: #3e2093;
+}
+.body_{
+    color: rgb(133, 133, 133);
+    font-weight: 400;
+    letter-spacing: 0.4px;
+    line-height: 25px;
+    
+}
+.container1{
+    margin-bottom: 50px;
+}

@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
+  }
+  .mainbody{
+    display: flex;
+  height: 100vh;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(to left, #9e1f79 0%, #1f4c8f 100%);
+  }
+
+  .container{
+    background: linear-gradient(135deg, rgba(255,255,255,0.1),rgba(255,255,255,0));
+  border: 2px solid rgba(255, 255, 255, 0.359);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border-radius: 12px;
+  box-shadow: 0 8px 32px 0 rgba(0,0,0,0.4);
+    min-width: 400px;
+    width: auto;
+    padding: 25px 30px;
+    height: 270px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  label {
+    font-weight: bold;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    color: white;
+  }
+  
+  .email_inp{
+    width: 300px;
+    padding: 10px;
+    margin: 5px 0 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    background-color: white;
+  }
+  .container button[type="submit"]{
+    margin: 10px 0;
+    width: 100%;
+    padding: 6px;
+    background: linear-gradient(to right, #6200c0 0%, #f11111 100%);
+    font-size: 17px;
+    color: #fff;
+    border-radius: 5px;
+    /* cursor: pointer;
+    transition: all 0.3s ease; */
+    border: 2px solid black;
+  }
+  .container button[type="submit"]:hover{
+    cursor: pointer;
+    transition: all 0.3s ease;
+    letter-spacing: 1px;
+    background: linear-gradient(to left, #6200c0 0%, #f11111 100%);
+  }
+  .container button:disabled{
+    opacity: 0.6;
+  }
+  .container button:disabled:hover{
+    cursor: not-allowed;
+  }
+  .ent{
+    font-size: 20px;
+    color: white;
+  }
+.otp-input{
+    margin: 5px 10px 20px;
+}
+.otp-num{
+  font-size: 21px;
+  font-weight: 600;
+}
+/* .otp-field{
+    display: flex;
+    flex-direction: row;
+}
+
+input[type=number]{
+    -moz-appearance: textfield;
+}
+input::-webkit-inner-spin-button,
+input::-webkit-outer-spin-button{
+    -webkit-appearance: none;
+    margin: 0;
+} */

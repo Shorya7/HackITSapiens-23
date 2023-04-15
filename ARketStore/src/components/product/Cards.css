@@ -1,0 +1,92 @@
+.cards{
+    margin: 20px;
+    display: flex;
+    position: relative;
+    
+    flex-direction: column;
+    width: 250px;
+    height: 450px;
+    border-radius: 20px;
+    /* border-color: black; */
+    /* border-width: 2px; */
+    /* border-style: solid; */
+    box-shadow: 3px 3px 10px #888888;
+   background-color: #eeeeee;
+}
+.cards:hover{
+    cursor: pointer;
+    box-shadow: 5px 5px 10px #888888;
+}
+.content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cart{
+margin-left: 60px;
+}
+.price{
+    margin-right: 60px;
+    margin-bottom: 10px;
+
+
+}
+h1{
+    text-align: center;
+}
+.p{
+    font-weight: 400;
+    color: rgb(78, 77, 77);
+ margin-left: 15px;
+}
+.q{
+    font-weight: bold;
+}
+.divresponsive{
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-left: 70px;
+}
+
+hr{
+    width: 100%;
+    color: black;
+}
+.head_card{
+    margin-bottom: 7px;
+    margin-top: 7px;
+}
+.cards img{
+margin: 22px;
+}
+/* .cart_price_icon{
+    margin-top: 50px;
+} */
+
+.cart_button2{
+    position: absolute;
+    top: 20px;
+    right: 1px;
+    border: none ;
+    background-color: inherit;
+    cursor: pointer;
+}
+.cart_button2:hover{
+    color: #FF0000;
+}
+.like_cards{
+ 
+  /* border-style: solid;
+  border: black; */
+font-size: 25px;
+}
+
+/* @media screen and (max-width: 550px){
+    .cards{
+    height: 300px;
+    width: 200px;
+    }
+}  */
